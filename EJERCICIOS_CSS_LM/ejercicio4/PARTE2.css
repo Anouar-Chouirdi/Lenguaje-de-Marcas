@@ -1,0 +1,19 @@
+
+.contenedor {display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 2px solid black;
+    }
+
+
+.item {width: 100px;
+    height: 100px;
+    background-color:blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
