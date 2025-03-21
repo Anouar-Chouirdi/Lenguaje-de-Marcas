@@ -1,0 +1,9 @@
+Explicación del ejercicio 1; ciudades
+
+<ciudades>: Elemento raíz que engloba todas las ciudades.
+
+<ciudad>: Representa cada ciudad individual.
+
+<nombre>: Contiene el nombre de la ciudad.
+
+<pais>: Indica el país al que pertenece la ciudad y posee un atributo continente que define su ubicación geográfica.

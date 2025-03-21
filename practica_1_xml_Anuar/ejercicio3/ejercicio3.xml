@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nombre: [Anouar CHouirdi Alouat]
+Curso: [Asir]
+Fecha: [21/03/2006]
+Ejercicio: [Ejercicio1 1; Libros]-->
+<libros>
+
+    <libro> 
+      <titulo>titulo="Cien años de soledad"</titulo> 
+      <autor>autor="Gabriel García Márquez"</autor>
+      <año_publicacion> año_publicacion="1967" </año_publicacion>
+    </libro>
+    <libro> 
+    <titulo>titulo="Don Quijote de la Mancha"</titulo>  
+    <autor>autor="Miguel de Cervantes"</autor> 
+    <año_publicacion>año_publicacion="1605" </año_publicacion>
+    </libro>
+    <libro> 
+    <titulo>titulo="1984"</titulo>  
+    <autor>autor="George Orwell"</autor> 
+    <año_publicacion>año_publicacion="1949" </año_publicacion>
+    </libro>
+</libros>

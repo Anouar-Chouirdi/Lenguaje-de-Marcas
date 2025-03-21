@@ -1,0 +1,10 @@
+Explicación de la estructura del ejercicio 3:
+<empleados>: Este es el elemento principal que agrupa todos los empleados.
+
+<empleado>: Cada empleado está representado por un elemento <empleado> que contiene varios elementos hijos:
+
+<nombre>: El nombre del empleado.
+<apellido>: El apellido del empleado.
+<edad>: La edad del empleado.
+<departamento>: El departamento en el que trabaja el empleado.
+<cargo>: El cargo o puesto que ocupa el empleado dentro de la empresa.

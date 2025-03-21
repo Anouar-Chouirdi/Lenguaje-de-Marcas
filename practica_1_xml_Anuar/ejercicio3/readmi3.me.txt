@@ -1,0 +1,6 @@
+Explicación de la estructura del ejercicio 3:
+<libros>: Es el contenedor principal que agrupa todos los libros.
+<libro>: Cada libro es un elemento dentro de <libros>, que contiene tres elementos hijos:
+<titulo>: El título del libro.
+<autor>: El autor del libro.
+<año_publicacion>: El año de publicación del libro.

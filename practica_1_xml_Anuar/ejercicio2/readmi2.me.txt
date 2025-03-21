@@ -1,0 +1,12 @@
+	Explicación de la estructura ejercicio 2:
+<historia>: Elemento principal que contiene los hechos históricos.
+
+<hecho>: Contiene una descripción del evento y una fecha asociada.
+
+atributo descripcion: Una breve descripción del hecho histórico.
+
+sub-elemento <fecha>: Contiene tres sub-elementos que indican el día, mes y año del evento.
+
+<dia>: El día del evento.
+<mes>: El mes del evento.
+<año>: El año del evento.
