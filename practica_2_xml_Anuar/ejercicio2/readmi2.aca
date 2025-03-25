@@ -1,0 +1,11 @@
+El ejercicio 2 se ha compuesto de la siguiente raiz y atributos;
+
+<equipos>: Contiene todos los equipos.
+<equipo>: Representa a un equipo de fútbol e incluye:
+<nombre>: Nombre del equipo.
+<ciudad>: Ciudad donde se encuentra el equipo.
+<entrenador>: Nombre del entrenador (se indica como "Desconocido").
+<jugadores>: Contiene la lista de jugadores.
+<jugador posicion="tipo">: Representa un jugador con el atributo posicion indicando su rol en el campo.
+<nombre>: Nombre del jugador.
+<nacionalidad>: Nacionalidad del jugador.
