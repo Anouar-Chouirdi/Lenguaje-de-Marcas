@@ -1,0 +1,14 @@
+Este archivo combina XML con HTML para mostrar información de libros sin conflictos de etiquetas.
+
+Estructura del Archivo
+- **Elemento raíz**: `<html>` con el espacio de nombres XHTML.
+- **Secciones principales**:
+  - `<head>`: Contiene el título del documento.
+  - `<body>`: Contiene la reseña del libro dentro de `<div id="bookreview">`.
+  - `<table>`: Muestra la información del libro en formato tabular.
+Datos Representados
+- **Título del libro**: Introducción a XML
+- **Autor**: Simon St. Laurent
+- **Precio**: 31.98
+- **Páginas**: 352
+- **Fecha**: 1998/01

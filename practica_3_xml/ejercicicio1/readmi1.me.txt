@@ -1,0 +1,25 @@
+Este archivo XML contiene un catálogo de software, organizado en dos categorías: sistemas operativos y aplicaciones de oficina.
+
+Estructura
+- **Elemento raíz**: `<catalogo>`
+- **Espacios de nombres**:
+  - `os`: Software de sistemas operativos
+  - `office`: Software de oficina
+- **Cada software incluye**:
+  - `nombre`: Nombre del software
+  - `version`: Versión actual
+  - `desarrollador`: Empresa o desarrollador
+  - `url` (opcional): Enlace a más información
+
+Ejemplo de Software
+Sistemas Operativos
+- Fedora (Red Hat)
+- Debian (Debian Project)
+- Arch Linux (Arch Linux Community)
+
+Aplicaciones de Oficina
+- Apache OpenOffice (Apache Software Foundation)
+- WPS Office (Kingsoft)
+- OnlyOffice (Ascensio System SIA)
+
+

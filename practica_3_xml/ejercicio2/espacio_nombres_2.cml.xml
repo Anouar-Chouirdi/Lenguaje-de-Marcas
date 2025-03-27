@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [ Anouar Chouirdi Alouat]
+Curso: [Asir 1]
+Fecha: [27/02/2025]
+Ejercicio: [Espacio de nombres 2]
+-->
+<html>
+    <head>
+        <title>Book Review</title>
+    </head>
+    <body>
+        <div id="bookreview">
+            <h1>Introducción a XML</h1>
+            <table border="1">
+                <tr align="center">
+                    <th>Author</th>
+                    <th>Price</th>
+                    <th>Pages</th>
+                    <th>Date</th>
+                </tr>
+                <tr align="left">
+                    <td>Simon St. Laurent</td>
+                    <td>31.98</td>
+                    <td>352</td>
+                    <td>1998/01</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
