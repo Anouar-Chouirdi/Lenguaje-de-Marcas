@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Anoaur Chouirdi Alouat] 
+Curso: [Asir1] 
+Fecha: [2/04/2025] 
+Ejercicio: [EMPRESAS] 
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+
+<factura numero="12345" fecha="2025-04-02">
+    <datos-emisor>
+        <nombre>Librería El Saber</nombre>
+        <cif>A12345678</cif>
+        <telefono>912345678</telefono>
+    </datos-emisor>
+
+    <datos-cliente>
+        <nombre>Biblioteca Municipal</nombre>
+        <cif>B98765432</cif>
+        <telefono>918765432</telefono>
+    </datos-cliente>
+
+    <detallefactura>
+        <linea codigo-articulo="A001" tipo="Libro" importe="15.99">
+            <descripcion>Fundamentos de la programación</descripcion>
+            <cantidad>1</cantidad>
+            <pvp>15.99</pvp>
+        </linea>
+        <linea codigo-articulo="A002" tipo="Libro" importe="9.99">
+            <descripcion>Introducción a la inteligencia artificial</descripcion>
+            <cantidad>2</cantidad>
+            <pvp>9.99</pvp>
+        </linea>
+    </detallefactura>
+</factura>

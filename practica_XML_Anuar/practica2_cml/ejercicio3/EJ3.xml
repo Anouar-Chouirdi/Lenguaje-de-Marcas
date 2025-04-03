@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: [Anouar Chouirdi Alouat]
+Curso: [Asir1]
+Fecha: [3/04/2025]
+Ejercicio: [Aeropuerto]
+-->
+
+<!DOCTYPE aeropuerto SYSTEM "aeropuerto.dtd">
+
+
+<aeropuerto>
+    <nombre>Aeropuerto de Cuatro Vientos</nombre>
+    <fecha-panel>2025-04-03</fecha-panel>
+    <vuelos>
+    
+        <vuelo codigo="IB1234" estado="E">
+            <origen>Roma</origen>
+            <destino>Grecia</destino>
+            <hora>08:30</hora>
+            <diario/>
+        </vuelo>
+
+       
+        <vuelo codigo="VEFVEF" estado="R">
+            <origen>Barcelona</origen>
+            <destino>Londres</destino>
+            <hora>10:15</hora>
+        </vuelo>
+
+        <vuelo codigo="B4TREFVD" estado="C">
+            <origen>Marrakech</origen>
+            <destino>España</destino>
+            <hora>17:45</hora>
+            <diario/>
+        </vuelo>
+
+    </vuelos>
+</aeropuerto>

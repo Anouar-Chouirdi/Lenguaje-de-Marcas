@@ -1,0 +1,13 @@
+ <!ELEMENT aeropuerto (nombre, fecha-panel, vuelos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha-panel (#PCDATA)>
+<!ELEMENT vuelos (vuelo+)>
+
+<!ELEMENT vuelo (origen, destino, hora, diario?)>
+<!ATTLIST vuelo codigo CDATA #REQUIRED>
+<!ATTLIST vuelo estado (E | R | C) "E">
+
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT diario EMPTY>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Anoaur Chouirdi Alouat] 
+Curso: [Asir1] 
+Fecha: [2/04/2025] 
+Ejercicio: [nba] 
+-->
+<!DOCTYPE EquiposNBA SYSTEM "equiposNBA.dtd">
+
+<EquiposNBA>
+    <equipo conferencia="Este">
+        <nombre>Miami Heat</nombre>
+        <titulos>3</titulos>
+        <posicion>5</posicion>
+        <quinteto>Lowry, Herro, Butler, Tucker, Adebayo</quinteto>
+    </equipo>
+
+    <equipo conferencia="Oeste">
+        <nombre>Los Angeles Lakers</nombre>
+        <titulos>17</titulos>
+        <posicion>2</posicion>
+        <quinteto>Westbrook, Reaves, LeBron, Davis, Howard</quinteto>
+    </equipo>
+
+    <equipo conferencia="Este">
+        <nombre>Boston Celtics</nombre>
+        <titulos>17</titulos>
+        <posicion>1</posicion>
+        <quinteto>Smart, Brown, Tatum, Horford, Williams</quinteto>
+    </equipo>
+</EquiposNBA>

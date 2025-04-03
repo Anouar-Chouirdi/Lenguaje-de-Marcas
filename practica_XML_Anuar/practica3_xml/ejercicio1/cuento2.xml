@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Anoaur Chouirdi Alouat] 
+Curso: [Asir1] 
+Fecha: [2/04/2025] 
+Ejercicio: [Cuento] 
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="B02" titulo="La Casa del Terror">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Pedro</nombre>
+            <genero>M</genero>
+        </personaje>
+    </personajes>
+    <trama>Anouar explora una casa embrujada y descubre secretos oscuros.</trama>
+    <etiqueta nombre="terror"/>
+    <precio>3.50</precio>
+</cuento>

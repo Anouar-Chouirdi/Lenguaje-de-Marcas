@@ -1,0 +1,32 @@
+explicación de código;
+XML:
+
+Elemento raíz: El elemento raíz es <EquiposNBA>, que contiene múltiples elementos <equipo>.
+
+Cada <equipo> tiene un atributo obligatorio llamado conferencia que indica si el equipo pertenece a la conferencia "Este" o "Oeste".
+
+Cada equipo tiene:
+
+<nombre>: El nombre del equipo de la NBA.
+
+<titulos>: Número de títulos ganados por el equipo.
+
+<posicion>: La posición del equipo en la clasificación.
+
+<quinteto>: Los nombres de los jugadores del quinteto titular.
+
+DTD:
+
+El elemento raíz EquiposNBA puede contener uno o más elementos <equipo>.
+
+Cada elemento equipo contiene:
+
+nombre: Nombre del equipo (texto simple).
+
+titulos: Número de títulos ganados (texto simple).
+
+posicion: Posición en la clasificación (texto simple).
+
+quinteto: Los jugadores del quinteto titular (texto simple).
+
+El atributo conferencia es obligatorio y puede ser "Este" o "Oeste".

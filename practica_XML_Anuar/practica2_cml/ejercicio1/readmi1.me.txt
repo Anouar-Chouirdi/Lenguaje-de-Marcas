@@ -1,0 +1,15 @@
+XML: Este archivo contiene la factura de una librería que vende productos a una biblioteca.
+
+Datos del emisor: Son los datos de la librería (nombre, CIF, teléfono).
+
+Datos del cliente: Son los datos de la biblioteca (nombre, CIF, teléfono).
+
+Detalle de la factura: Aquí se especifican los productos (líneas), cada producto tiene un código, tipo, descripción, cantidad y precio.
+
+DTD: La DTD (Definición de Tipo de Documento) define cómo deben estar estructurados los datos del XML.
+
+El elemento "factura" contiene la información básica (número, fecha, emisor, cliente y detalle).
+
+El detalle está formado por varias líneas de productos.
+
+Cada línea tiene una descripción, cantidad y precio.

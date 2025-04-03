@@ -1,0 +1,23 @@
+<!ELEMENT cuento (personajes, trama, etiqueta*, precio?)>
+<!ATTLIST cuento 
+    cod CDATA #REQUIRED
+    titulo CDATA #REQUIRED
+>
+
+<!ELEMENT personajes (personaje+)>
+<!ELEMENT personaje (nombre, genero)>
+<!ATTLIST personaje 
+    id ID #REQUIRED
+    tipo (principal | secundario | antagonista) "principal"
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+
+<!ELEMENT trama (#PCDATA)>
+<!ELEMENT etiqueta EMPTY>
+<!ATTLIST etiqueta 
+    nombre CDATA #REQUIRED
+>
+
+<!ELEMENT precio (#PCDATA)>

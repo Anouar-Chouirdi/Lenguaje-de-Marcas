@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Anouar Chouirdi Alouat] 
+Curso: [Asir1] 
+Fecha: [2/04/2025] 
+Ejercicio: [Biblioteca] 
+-->
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro+)>
+    <!ELEMENT libro (titulo, editorial, autor, paginas)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT editorial (#PCDATA)>
+    <!ELEMENT autor (nombre, apellidos)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT paginas (#PCDATA)>
+]>
+
+<biblioteca>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <editorial>Espasa</editorial>
+        <autor>
+            <nombre>Miguel</nombre>
+            <apellidos>de Cervantes</apellidos>
+        </autor>
+        <paginas>863</paginas>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <editorial>Planeta</editorial>
+        <autor>
+            <nombre>Carlos</nombre>
+            <apellidos>Ruiz Zafón</apellidos>
+        </autor>
+        <paginas>576</paginas>
+    </libro>
+    <libro>
+        <titulo>La casa de los espíritus</titulo>
+        <editorial>Sudamericana</editorial>
+        <autor>
+            <nombre>Isabel</nombre>
+            <apellidos>Allende</apellidos>
+        </autor>
+        <paginas>368</paginas>
+    </libro>
+</biblioteca>

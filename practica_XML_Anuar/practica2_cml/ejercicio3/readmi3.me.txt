@@ -1,0 +1,35 @@
+Archivos incluidos
+
+aeropuerto.xml: Contiene la información del aeropuerto, incluyendo su nombre, la fecha del panel de vuelos y una lista de vuelos con sus atributos.
+
+aeropuerto.dtd: Define la estructura del documento XML, especificando los elementos permitidos, sus atributos y restricciones.
+
+Estructura del XML
+
+El documento XML sigue esta estructura:
+
+<aeropuerto>: Elemento raíz.
+
+<nombre>: Nombre del aeropuerto.
+
+<fecha-panel>: Fecha correspondiente al panel de vuelos.
+
+<vuelos>: Contiene uno o más elementos <vuelo>.
+
+<vuelo>: Representa un vuelo con atributos y subelementos:
+
+Atributos:
+
+codigo: Código del vuelo.
+
+estado: Estado del vuelo (E: En hora, R: Retrasado, C: Cancelado).
+
+Subelementos:
+
+<origen>: Ciudad de origen del vuelo.
+
+<destino>: Ciudad de destino del vuelo.
+
+<hora>: Hora de salida del vuelo.
+
+<diario>: Elemento vacío que indica si el vuelo es diario.

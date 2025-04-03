@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Nombre: [Anoaur Chouirdi Alouat] 
+Curso: [Asir1] 
+Fecha: [2/04/2025] 
+Ejercicio: [Cuento] 
+-->
+<!DOCTYPE cuento SYSTEM "cuentos.dtd">
+<cuento cod="A01" titulo="El Bosque Encantado">
+    <personajes>
+        <personaje id="p1" tipo="principal">
+            <nombre>Alicia</nombre>
+            <genero>F</genero>
+        </personaje>
+    </personajes>
+    <trama>Una joven aventurera explora un bosque mágico.</trama>
+    <etiqueta nombre="aventura"/>
+    <precio>5.99</precio>
+</cuento>

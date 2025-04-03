@@ -1,0 +1,16 @@
+Descripción
+Este ejercicio consiste en la creación de un documento XML que representa los jugadores de una liga de baloncesto. Cada jugador contiene la siguiente información:
+
+Nombre
+
+Apellidos
+
+Equipo, que incluye:
+
+Ciudad
+
+Presidente, con su nombre y apellidos
+
+Edad.
+Este ejercicio permite aprender a estructurar datos en XML de manera organizada, asegurando su validez mediante una DTD externa. Es útil para representar información jerárquica y mantener la integridad de los datos.
+

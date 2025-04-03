@@ -1,0 +1,21 @@
+Este archivo XML define una estructura para una biblioteca que almacena información sobre libros. Utiliza una definición de tipo de documento (DTD) para establecer las reglas de validación del contenido.
+
+Estructura del XML
+
+El documento sigue la siguiente jerarquía:
+
+biblioteca: Elemento raíz que contiene una colección de libros.
+
+libro: Cada libro dentro de la biblioteca, con la siguiente información:
+
+titulo: Título del libro.
+
+editorial: Editorial que publicó el libro.
+
+autor: Contiene los datos del autor:
+
+nombre: Nombre del autor.
+
+apellidos: Apellidos del autor.
+
+paginas: Número de páginas del libro.

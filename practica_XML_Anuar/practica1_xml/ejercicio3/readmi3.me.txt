@@ -1,0 +1,6 @@
+El dtd se organiza de la siguiente manera; 
+agenda: Es el elemento raíz. Contiene los elementos nombre, apellido (uno o más), telefono, fecha_nacimiento y lugar_nacimiento.
+nombre y apellido: Estos son elementos de texto (PCDATA).
+telefono: Un único número de teléfono, que también es texto.
+fecha_nacimiento: Contiene los elementos anio, mes y dia, que son todos elementos de texto.
+lugar_nacimiento: Contiene pais, ciudad y localidad, que también son elementos de texto.
