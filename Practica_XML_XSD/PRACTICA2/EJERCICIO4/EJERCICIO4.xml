@@ -1,0 +1,13 @@
+<!-- 
+Nombre: [ANOUAR CHOUIRDI] 
+Curso: ASIR1] 
+Fecha: [20/04/2025] 
+Ejercicio: [LETRAS ADMITIDAS] 
+-->
+<xs:element name="letras">
+  <xs:simpleType>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([A-Z][a-z])+" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:element>
